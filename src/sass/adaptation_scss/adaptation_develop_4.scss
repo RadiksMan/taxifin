@@ -1,0 +1,68 @@
+@media screen and (max-width: 1920px){
+
+}
+@media screen and (max-width: 1600px){
+
+}
+@media screen and (max-width: 1366px){
+
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 992px){
+    /*topblock*/
+    .top-block .content-top {padding: 19px 0 5px;}
+    .top-block .content-top .text-box .txt {margin-left: 66px;padding-top: 68px;}
+    .top-block .content-top .text-box {width: 71.2%;float: left;}
+    .top-block .content-top .img-box {float: left;padding-top: 10px;}
+}
+@media screen and (max-width: 768px){
+    .top-block .content-top .img-box {display: none;}
+    .top-block .content-top .text-box {width: 100%;float: none;}
+     .top-block .content-top .text-box .title-block h2{text-align: center;}
+}
+@media screen and (max-width: 666px){
+    .fancybox-form #call-popup, .fancybox-form #call-popup-next {
+        padding: 40px 25px;min-width: auto;
+    }
+    .contacts{
+        #mapInit{height: 315px;}
+    }
+
+    /*topblock*/
+    .top-block .content-top {padding: 19px 0 35px;}
+
+    .top-block .content-top .text-box .title-block h2{text-align: center;font-size: 37px;padding-top: 2px;line-height: 45px;}
+    .top-block .content-top .text-box .txt {margin-left: 57px;padding-top: 76px;}
+    .top-block .content-top .text-box .txt span{font-size: 30px;}
+    .top-block .content-top .text-box .txt p{padding-bottom: 22px;font-size: 27px;}
+}
+@media screen and (max-width: 479px){
+    .contacts{position: relative;
+        .title-box{position: absolute;top: 0;left: 0;width: 100%;z-index: 101;}
+        .title-box .title-text{max-width: 138px;}
+    }
+}
+@media screen and (max-width: 320px){
+    .fancybox-form #call-popup, .fancybox-form #call-popup-next {padding: 20px 0px;}
+    .fancybox-form .contact-form-title h5 {white-space: normal;}
+    .fancybox-form .contact-form-row {padding: 0 4%;}
+    .contacts{height: 157px;
+        #mapInit{height: 157px;}
+    }
+
+    /*topblock*/
+    .top-block .content-top {padding: 1px 0 35px;}
+    .top-block .content-top .text-box .title-block h2 {text-align: center;font-size: 19px;padding-top: 2px;line-height: 24px;font-weight: normal;}
+    .top-block .content-top .text-box .txt {margin-left: 38px;padding-top: 29px;}
+    .top-block .content-top .text-box .txt span {font-size: 14px;letter-spacing: 0px;padding-bottom: 0;}
+    .top-block .content-top .text-box .txt p {padding-bottom: 0px;font-size: 14px;line-height: 16px;    font-weight: normal;}
+    .top-block .content-top .text-box .txt i{font-size: 14px;font-weight: normal;}
+    .top-block .content-top .text-box .txt span:before {background-size: contain;width: 20px;height: 11px;    left: -32px;top: 6px;}
+    .top-block .content-top .text-box .txt:before {width: 2px;background-color: #142435;height: 72%;left: -37px;position: absolute;top: 42px;}
+    .top-block .background img{transform: translate(-50%, -18%);max-width: 201%;}
+}

@@ -1,0 +1,72 @@
+/*titles*/
+    .title-box{ width: 100%;  border-top: 20px solid #4bada8;
+        .title-text{ max-width: 405px; background-color: #4bada8; position: relative; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; height:41px;
+                h2{font-family: 'Roboto'; font-weight: 700;color:#fff; font-size: 32px; text-transform: uppercase;     line-height: 29px;    padding-left: 38px;    letter-spacing: 1.5px;
+                i{color:#000;}
+            }
+            &:before{content:''; display: block;  border: 18px solid transparent; border-left: 18px solid #4bada8; border-top: 18px solid #4bada8; position: absolute;right:-30px; top:-5px;  transform:rotate(-15deg);  }
+        }
+
+    }
+    .contacts{
+        .title-box{margin-bottom: -41px;}
+    }
+    .art{
+            .title-box{ border-color: #84c7c4; margin-bottom: -41px;
+                .title-text{ background-color: #84c7c4;
+                    &:before{border-left: 18px solid #84c7c4; border-top: 18px solid #84c7c4;}
+                }
+            }
+        }
+
+/*END titles*/
+/*partners*/
+    .partners{overflow: hidden;
+        .partners-content{   padding-top: 61px;
+            .items{text-align: center;
+                .item{display: inline-block; padding: 0 20px 55px; transform:scale(0); transition:transform 1500ms;
+                    &.animated{transform:scale(1);}
+                    &:nth-child(1){transition-delay: 100ms;}
+                    &:nth-child(2){transition-delay: 200ms;}
+                    &:nth-child(3){transition-delay: 400ms;}
+                    &:nth-child(4){transition-delay: 600ms;}
+                    &:nth-child(5){transition-delay: 800ms;}
+                    &:nth-child(6){transition-delay: 1000ms;}
+                    &:nth-child(7){transition-delay: 1200ms;}
+                }
+            }
+        }
+    }
+/*END partners*/
+/*top block*/
+.top-block{ font-family: 'Roboto'; font-weight: 700; color:#fff; font-size: 24px; overflow: hidden;
+    .background{position: relative;
+        img{position: absolute; left:50%; transform:translate(-50%,-19%); max-width: none;}
+    }
+    .content-top{ padding: 133px 0 100px;
+        .text-box{    width: 73%;     float: left;     padding-top: 10px;
+            .title-block{transform: translateX(-100%); opacity: 0; transition: all 500ms; transition-delay: 300ms;
+                h2{font-size: 32px; text-transform: uppercase;    line-height: 41px;    letter-spacing: -0.2px; }
+                &.animated{transform: translateX(0); opacity: 1;}
+            }
+            .txt{position: relative; margin-left: 70px; padding-top: 28px;
+                span{position: relative;    padding-bottom: 17px;     display: inline-block;letter-spacing: 1px; transform: translateX(-100%); opacity: 0; transition: all 500ms; transition-delay: 500ms;
+                    &:before{display: block; content: ''; background-image: url(../images/little-car.png); background-position: center; background-repeat: no-repeat;width:32px; height: 21px; position: absolute; left:-50px; top:6px;transform:scale(0,0); opacity:0;  transition: all 500ms; transition-delay: 1100ms;}
+                }
+                p{font-weight: 400; color: white;letter-spacing: 1px;padding-bottom: 66px;    line-height: 29px; transform: translateX(-100%); opacity: 0; transition: all 500ms; transition-delay: 600ms;}
+                i{font-size: 22px; color: #fff; font-weight: 700; text-transform: uppercase;letter-spacing: -1px;}
+                &:before{content: ''; display: block; width:3px; background-color: #142435; height: 72%; left:-72px; position: absolute;     top: 36px;}
+                &.animated{
+                    span{transform: translateX(0); opacity: 1;
+                        &:before{transform:scale(1,1); opacity:1;}
+                    }
+                    p{transform: translateX(0); opacity: 1;}
+                }
+            }
+        }
+        .img-box{ float:left; transform-origin: left 50%; transform: rotateY(90deg); opacity:0; transition: all 500ms; transition-delay: 300ms;
+            &.animated{transform: rotateY(0deg); opacity:1;}
+        }
+    }
+}
+/*END top block*/
